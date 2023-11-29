@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+.myGradient{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,47,1) 29%, rgba(110,24,55,1) 70%, rgba(57,96,90,1) 100%, rgba(0,212,255,1) 100%, rgba(134,141,39,1) 100%, rgba(162,97,94,1) 100%);
+}
+.contentCounter{
+  color: #fff;
+  border:5px solid rgb(155, 123, 123);
+  margin: 30px;
+  padding: 30px;
+}
+h1{
+  color: white;
+  text-align:center;
+}
+.advice-music{
+  margin: 10px 10px;
+  padding: 10px 10px;
+  
+}
+.video{
+  text-align: center;
+}
+#btn{
+  background-color:rgb(71, 5, 71);
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+.container{
+  width: 100%;
+  min-height: 100vh;
+border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 90px;
+}
+.content-section{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.content-section .card{
+  flex: 1;
+  margin: 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(46, 45, 45);
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+}
+.content-section .card img{
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+
+}
+.content-section .card h2{
+  margin: 15px 0px;
+  font-size: 28px;
+  color: #1662a1;
+  font-family: sans-serif;
+}
+.content-section .card p{
+font-size: 16px;
+line-height: 1.5;
+padding: 0px 10px;
+margin-bottom: 20px;
+font-family: sans-serif;
+}
